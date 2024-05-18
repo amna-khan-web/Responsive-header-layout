@@ -51,14 +51,14 @@ nav ul li a {
 }
 
 .attract h1 {
-    color: rgb(16, 221, 204);
-    text-shadow: 1px 2px red;
+    color: rgb(50, 4, 94);
+    text-shadow: 1px 2px rgb(111, 120, 241);
     margin-left: 50px;
 
 }
 
 .attract h2 {
-    color: crimson;
+    color: rgb(214, 117, 27);
     margin-left: 50px;
 
 }
@@ -73,7 +73,8 @@ nav ul li a {
     margin: 50px 0px 0px 100px;
     padding: 10px 50px;
     border-radius: 50px;
-    background: linear-gradient(to left, rgb(53, 150, 196), rgb(206, 116, 43));
+    background-color: rgb(118, 176, 224);
+    /* background: linear-gradient(to left, rgb(53, 150, 196), rgb(206, 116, 43)); */
     border: none;
 }
 
@@ -135,5 +136,8 @@ a:hover {
     }
     .attract button a {
         font-size: 10px;
+    }
+    nav ul li {
+        display: block;
     }
 }
